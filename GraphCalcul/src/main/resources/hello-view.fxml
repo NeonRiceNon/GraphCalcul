@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<!--+-->
+<!--+-->
+<!--+-->
+<!--+-->
+
+
+<?import javafx.scene.text.Text?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" fx:controller="com.example.graphcalcul.HelloController" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8bc5f74e" height="100.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         <Text fx:id="output"/>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="7" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="8" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="9" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="/" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
